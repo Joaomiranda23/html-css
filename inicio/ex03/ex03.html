@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt=br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Formatação de Textos</title>
+  </head>
+  <body>
+    <h1>Principais formatações</h1>
+    <h2>Negreito / Destaque</h2>
+    <p>
+      Nesta frase temos um <b>termo em negrito</b>, usando a tag B (não
+      semântica)
+    </p>
+    <p>
+      Já nesta frase temos um <strong>texto em negrito</strong> usando a tag
+      strong (semântica)
+    </p>
+    <h2>Itálico / Ênfase</h2>
+    <p>
+      Nesta frase temos um termo em <i>Itálico</i> usando a tag I (não
+      semantica)
+    </p>
+    <p>
+      Já nessa frase temos um <em>TERMO EM DESTAQUE</em> usando a tag em
+      (semântica)
+    </p>
+    <h2>Texto marcado</h2>
+    <p>
+      Podemos usar a tag MARK, para
+      <mark style="background-color: rgba(0, 183, 255, 0.623)"
+        >marcar um texto</mark
+      >
+    </p>
+    <p>
+      Para mudar a cor do seu marcador de textos, usamos a tag
+      &lt;style="background-color: cor;"&gt; que vai dentro da tag mark
+    </p>
+    <p>
+      Usando a tag style, dentro da tag mark, você não consegue definir uma cor
+      padrão para todos os marks do seu site, tendo que adicionar um style para
+      cada mark. <br />
+      Para podermos defifnir uma cor padrão, podemos criar uma tag style, dentro
+      da tag HEAD, sendo conhecida como seletor. <br />
+      ficaria basicamente assim: <br />
+      <mark style="background-color: limegreen">
+        &lt;style&gt; <br />
+        mark { <br />
+        background-color: limegreen <br />
+        } <br />
+        &lt;style&gt;
+      </mark>
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>
+      Para criar um <big>texto grande</big> usamos a tag &lt;big&gt; e para um
+      <small>texto pequeno</small>, usamos a tag &lt;small&gt;, porém, a tag
+      BIG, já não é mais uma tag semântica dentro de html5, para aumentarmos o
+      tamanho de um texto, devemos usar CSS. <br />
+      Apenas a tag SMALL, ainda é considerada semântica
+    </p>
+    <h2>Texto deletado</h2>
+    <p>
+      Podemos marcar um <del>texto como excluído</del>, para indicar que ele
+      deve ser lido, mas não considerado
+    </p>
+    <h2>Texto inserido</h2>
+    <p>
+      podemos marcar um <ins>texto como inserido</ins>, para dar uma ênfase e
+      indicar que ele foi adicionado depois
+    </p>
+    <h2>Texto sobrescrito</h2>
+    <p>
+      Usamos a tag &lt;sup&gt; para deixarmos um texto sobrescrito do outro, ou
+      seja, acima de outras palavras, como por exempo x<sup>20</sup>+3 <br />
+      Nesse caso, eu deixei o 20, sobrescrito do X
+    </p>
+    <h2>Texto subscrito</h2>
+    <p>
+      Usamos a tag &lt;sub&gt; para deixarmos um texto subscrito do outro, ou
+      seja, abaixo de outras palavras, como por exemplo; H<sub>2</sub>0 <br />
+      Nesse caso, eu deixei o 2, subscrito do H, deixei ele abaixo
+    </p>
+   
+  </body>
+</html>

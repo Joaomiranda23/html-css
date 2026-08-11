@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escreito em linguagem JavaScripit</p>
+    <p>Usamos a tag &lt;code&gt; para deixarmos o código fonte do nosso textp, padrão, asssim facilitando a leitura</p>
+<pre>
+    <code>
+        num = int(input("Digite um número: "))
+        if num % 2 == 0:
+        print(f'O número {num} é par')
+        else:
+        print(f'O número {num} é impar')
+        print('Fim do programa')
+    </code>
+</pre>
+<p>Podemos usar a tag &lt;pre&gt;, paara manter a formatação do código, para que no site, mostre a mesma formatação que vemos no editor de texto, ele ficará com os mesmo espaços e quebras de linha, sem precisarmos ficar adicionando a tag de quebra de linha</p>
+<h2>Citações simples</h2>
+<p>Como diria o pai de um amigo; <q>O computador é um burro muito rápido</q></p>
+<h2>Citações Completas</h2>
+<p>segundo Jeff noble, no seu livro HTML para leigos:</p>
+<blockquote>
+    <p>"HTML é uma linguagem de marcação que permite criar páginas web."</p>
+</blockquote>
+<p>Usamos a tag Q, para croarmos uma sitação simples, que não ocupe varias linhas do site.
+    E usamos a tag BLOCKQUOTE para criamos citações mais complexas, que ocupem mais linhads do codigo.
+Dentro da tag blockquote, podemos colocar a tag CITE, para adicionarmos a fonte da nossa citação. </p>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+<P>Para podermos mostrar a definição de uma palavra, usamos a tag &lt;abbr&gt;, para que assim que passarmos o mouse sobre ela, mostre a definicção da palavra </P>
+</body>
+</html>
